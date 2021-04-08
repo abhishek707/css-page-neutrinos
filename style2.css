@@ -1,0 +1,134 @@
+div.yellow{
+    /* background-color: yellow; */
+}
+
+ div.up-nav{
+    float:right;
+    /* background-color: yellow; */
+    /* padding-left: 52.5%; */
+}
+
+ div.up-nav li{
+    float: left;
+    list-style-type: none;
+    margin: 10px 20px;
+}
+
+ div.up-nav li img,a,input{
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+div.down-nav{
+    clear: both;
+}
+
+div.down-nav h4{
+    float: left;
+}
+
+
+div.down-nav nav ul {
+    float: right;
+}
+
+div.down-nav nav li{
+    float: left;
+    list-style-type: none;
+    margin: 10px 20px;
+}
+
+div.down-nav nav a{
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+#main-banner, #main-banner img{
+    width: 100%;
+    margin-top:20px;
+}
+
+.img-last{
+    height:2px;
+    width:2px;
+}
+
+.lorem{
+    margin: 20px 10px 0 10px;
+}
+
+#featured{
+    margin-top: 30px;
+}
+
+#featured ul{
+    padding: 0;
+}
+
+#featured li{
+    float: left;
+    width: 23%;
+    margin: 1%;
+    list-style-type: none; 
+}
+
+#featured li img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#featured li span{
+    float: left;
+    color: #333;
+}
+
+#featured ul:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/* .foo{
+    background-color: grey;
+} */
+
+.ff{
+    background-color: grey;
+    padding: 15px;
+    /* text-align:initial */
+}
+
+/* MEDIA QUERIES */
+
+/* tablets  */
+@media screen and (max-width: 768px){
+    nav{
+        float:none;
+    }
+
+    .last-image{
+        height: 80%;
+        width:95%;
+    }
+}
+
+/* Mobiles */
+@media screen and (max-width: 480px){
+    .foot{
+        width: 98%;
+        text-align:center;
+    }
+    div.up-nav {
+        float: none;
+    }
+
+    #featured li{
+    width: 46%;
+    margin-left: 5px;
+    margin-right: none;
+
+    }
+}
